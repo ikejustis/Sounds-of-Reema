@@ -168,9 +168,6 @@ footer{color:var(--muted)}footer nav a{color:var(--ink);text-decoration:underlin
   .name{position:relative;grid-column:1/-1;order:-1;padding:16px 0 26px}
   .name h1{font-size:100px}.name .script{font-size:34px}
 }
-.backpill{position:fixed;left:max(16px,env(safe-area-inset-left,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:50;display:inline-flex;align-items:center;gap:8px;font:700 14px/1 'DM Sans',system-ui,sans-serif;color:#fff;background:var(--ink);padding:11px 16px;border-radius:999px;box-shadow:0 8px 20px rgba(0,0,0,.25);transition:transform .15s}
-.backpill:hover{transform:translateY(-2px)}
-.backpill:focus-visible{outline:3px solid var(--pink);outline-offset:3px}
 </style>
 </head>
 <body>
@@ -337,6 +334,5 @@ document.querySelectorAll('[data-copy]').forEach(b => {
   m.addEventListener('pointerup', up); m.addEventListener('pointercancel', up);
 })();
 </script>
-<a class="backpill" href="https://www.ijnwogu.com/projects/reema.html" aria-label="Back to the Sounds of Reema case study">← Case study</a>
 </body>
 </html>
